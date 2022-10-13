@@ -14,4 +14,10 @@ export default class Paddle {
         ctx.fillStyle = 'green';
         ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
     }
+
+    update(deltaTime) {
+        
+        if (!deltaTime) return;
+        
+    }
 }
